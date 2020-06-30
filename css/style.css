@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* line 3, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.navbar {
+  background-color: #004273; }
+
+/* line 7, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.container h2 {
+  color: #004273;
+  font-size: 22px;
+  font-weight: 300px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase; }
+
+/* line 15, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.container hr {
+  border-width: 0.4166666666666667px;
+  border-color: #004273;
+  border-style: solid;
+  width: 149px;
+  height: 1px;
+  margin: 20px auto; }
+
+/* line 24, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.container p {
+  font-family: Arial;
+  color: #5b5b5b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justify; }
+
+/* line 32, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.container .icon-bar {
+  background-color: white; }
+
+/* line 35, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.container p {
+  text-align: center; }
+
+/* line 40, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+#one, #two, #three, #four {
+  float: right;
+  margin-right: -400px;
+  margin-top: 300px;
+  text-align: justify;
+  width: 75%; }
+
+/* line 48, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.jumbotron {
+  background-image: url("/images/woman.jpg");
+  background-size: cover;
+  height: 550px; }
+
+/* line 53, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 400px;
+  resize: vertical;
+  background-size: cover;
+  box-shadow: inset 400px 0px rgba(0, 66, 117, 0.35);
+  ​​​​​​​background-repeat: no-repeat;
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 100px; }
+  /* line 66, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  .flex-center p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.18);
+    width: 300px;
+    margin: 0 auto;
+    transition: 1s; }
+    /* line 75, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+    .flex-center p:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 0.5px solid white; }
+
+/* line 82, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.container-fluid {
+  color: white;
+  margin-top: 90px; }
+  /* line 85, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  .container-fluid .my {
+    background-color: rgba(0, 0, 0, 0.18); }
+
+/* line 89, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+a, span .sr-only {
+  color: white; }
+
+/* line 93, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+footer .footer {
+  background-color: #5D6D7E; }
+  /* line 95, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  footer .footer p.p {
+    color: white; }
+
+/* line 99, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+footer .foote {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #34495E;
+  width: 1170px; }
+  /* line 100, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  footer .foote span {
+    color: #B2BABB; }
+  /* line 103, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  footer .foote p {
+    font-family: Arial;
+    text-align: center; }
+
+/* line 115, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */ }
+  /* line 129, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+
+/* line 134, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  height: 400px;
+  width: 1170px; }
+  /* line 141, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  .map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+/* line 150, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+#top {
+  background: url("/images/ui.totop.png");
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width: 51px;
+  height: 51px;
+  border: none;
+  text-indent: 100%; }
+  /* line 162, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+  #top:hover {
+    opacity: 0.7; }
+
+/* line 168, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+h6 {
+  color: white;
+  font-weight: bold;
+  font-size: 16px; }
+
+/* line 175, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+.div p {
+  color: white; }
+
+/* line 179, ../../../../Desktop/pool_b3/sources/scss/style.scss */
+p.justify {
+  text-align: justify; }
